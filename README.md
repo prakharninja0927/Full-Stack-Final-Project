@@ -1,8 +1,7 @@
-I can provide you with the content for a `README.md` file, but you will need to create the file itself in your project repository. Here's the content you can use:
-  
+
 # Parkinson Disease Detection using Speech Analysis
 
-![Parkinson Disease Detection](images/parkinson_detection.png)
+![Parkinson Disease Detection](https://img.freepik.com/free-vector/parkinson-disease-symptoms-infographic_1308-48653.jpg?w=2000)
 
 ## Table of Contents
 
@@ -23,12 +22,12 @@ Parkinson's Disease is a neurodegenerative disorder that affects a person's move
 
 1. Clone this repository to your local machine.
    ```shell
-   git clone https://github.com/yourusername/ParkinsonDetection.git
+   git clone https://github.com/prakharninja0927/Full-Stack-Final-Project.git
    ```
 
 2. Navigate to the project directory.
    ```shell
-   cd ParkinsonDetection
+   cd Full-Stack-Final-Project
    ```
 
 3. Install the required dependencies.
@@ -42,18 +41,18 @@ Parkinson's Disease is a neurodegenerative disorder that affects a person's move
 
 2. Run the detection script.
    ```shell
-   python detect_parkinson.py --audio_path data/sample_audio.wav
+   python app.py
    ```
 
 3. The script will output the likelihood of Parkinson's Disease presence based on the provided speech recording.
 
 ## Dataset
 
-The dataset used for training and evaluation is the [Parkinson's Disease Classification Dataset](https://www.kaggle.com/nidaguler/parkinsons-data-set), which contains speech recordings from individuals with and without Parkinson's Disease. The dataset is preprocessed to extract relevant features from the audio recordings.
+The dataset used for training and evaluation is the [Parkinson's Disease Classification Dataset](https://www.kaggle.com/datasets/vikasukani/parkinsons-disease-data-set), which contains speech recordings from individuals with and without Parkinson's Disease. The dataset is preprocessed to extract relevant features from the audio recordings.
 
 ## Methodology
 
-The detection model is built using machine learning techniques, employing features extracted from speech recordings as inputs. A classification algorithm, such as Random Forest or Support Vector Machine, is trained on these features to differentiate between individuals with and without Parkinson's Disease.
+The detection model is built using machine learning techniques, employing features extracted from speech recordings as inputs. and pass to algorithms and do benchmarking and selecte Sequentian Model to be the best and selected for our project, is trained on these features to differentiate between individuals with and without Parkinson's Disease.
 
 ## Results
 
