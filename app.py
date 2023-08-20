@@ -16,8 +16,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
+    # Create a directory for audio files if it doesn't exist
+    audio_folder = os.path.join(app.root_path, 'audio')
+    if not os.path.exists(audio_folder):
+        os.makedirs(audio_folder)
     return render_template('index.html')
-
 
 @app.route('/about')
 def about():
